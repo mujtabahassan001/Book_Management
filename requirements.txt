@@ -1,0 +1,7 @@
+django 
+djangorestframework 
+djangorestframework-simplejwt 
+django-channels
+channels-redis
+daphne
+psycopg2
