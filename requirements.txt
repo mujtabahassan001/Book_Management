@@ -5,3 +5,5 @@ django-channels
 channels-redis
 daphne
 psycopg2
+python-dotenv
+stripe

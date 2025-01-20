@@ -54,10 +54,10 @@ TEMPLATES = [
 ASGI_APPLICATION = 'book_project.asgi.application'
 
 CHANNEL_LAYERS = {
-    'default': {
-        'BACKEND': 'channels_redis.core.RedisChannelLayer',
-        'CONFIG': {
-            "hosts": [('127.0.0.1', 6379)],
+    "default": {
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
+        "CONFIG": {
+            "hosts": [("127.0.0.1", 6379)],
         },
     },
 }
@@ -66,7 +66,7 @@ CHANNEL_LAYERS = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'books_project',  
+        'NAME': 'book_project_stripe',  
         'USER': 'postgres',  
         'PASSWORD': 'mujtaba001',  
         'HOST': 'localhost', 
