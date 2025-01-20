@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from .models import Borrowing
 
+
 class BorrowingSerializer(serializers.ModelSerializer):
     borrower = serializers.CharField(source='borrower.email', read_only=True)  
 
